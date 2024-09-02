@@ -29,7 +29,7 @@ export default function index() {
       scrollTrigger: {
         trigger: document.documentElement,
         start: 0,
-        end: window.innerHeight / 3,
+        end: 300,
         onLeave: () => {
           gsap.to(button.current, {
             scale: 1,
