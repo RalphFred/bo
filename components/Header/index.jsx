@@ -23,7 +23,7 @@ export default function index() {
     }
   }, [pathname]);
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     gsap.to(button.current, {
       scrollTrigger: {
