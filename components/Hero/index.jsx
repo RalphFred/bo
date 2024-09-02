@@ -22,7 +22,7 @@ export default function Hero() {
         trigger: document.documentElement,
         scrub: 0.25,
         start: 0,
-        end: window.innerHeight,
+        end: 100,
         onUpdate: e => direction = e.direction * -1
       }, 
       x: '-500px',
