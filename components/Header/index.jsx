@@ -23,13 +23,13 @@ export default function index() {
     }
   }, [pathname]);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     gsap.to(button.current, {
       scrollTrigger: {
         trigger: document.documentElement,
         start: 0,
-        end: window.innerHeight / 3,
+        end: 300,
         onLeave: () => {
           gsap.to(button.current, {
             scale: 1,
