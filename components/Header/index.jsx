@@ -10,7 +10,6 @@ import { ScrollTrigger } from "gsap/all";
 import Nav from "./Nav";
 import { AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import TransistionLink from '../../common/TransistionLink'
 
 export default function index() {
   const header = useRef(null);
