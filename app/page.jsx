@@ -9,9 +9,9 @@ import { useEffect } from 'react';
 
 export default function Home() {
   
-  useEffect(() => {
-    const locomotiveScroll = new LocomotiveScroll();
-  }, []);
+  // useEffect(() => {
+  //   const locomotiveScroll = new LocomotiveScroll();
+  // }, []);
   
   return (
     <main className={style.wrapper}>
