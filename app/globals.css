@@ -6,7 +6,3 @@ body{
   margin: 0;
   overflow: hidden;
 }
-
-html, body {
-  touch-action: auto; /* Allow normal touch interactions */
-}
