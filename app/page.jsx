@@ -14,7 +14,7 @@ export default function Home() {
   }, [])
   
   return (
-    <main>
+    <main className={style.wrapper}>
       <Hero />
       <Description />
       <Newsletter />
